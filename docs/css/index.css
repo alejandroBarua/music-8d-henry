@@ -253,3 +253,31 @@ footer .copy {
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 550px) {
+  .home .text {
+    width: 100%;
+  }
+  .home .music-images img {
+    height: 120px;
+  }
+  footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .social {
+    margin-top: 10px;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home .music-images img {
+    height: 90px;
+  }
+  .registrate {
+    display: none;
+  }
+}
